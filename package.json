@@ -6,7 +6,7 @@
   "scripts": {
     "dev": " webpack-dev-server --progress --colors",
     "build": "set NODE_ENV=prod && webpack -p --progress --colors",
-    "test": "gulp"
+    "iconfont": "gulp iconfont"
   },
   "repository": {
     "type": "git",

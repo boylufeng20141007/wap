@@ -18,14 +18,20 @@ var config = {
 	},
 	devServer: {
 		contenBase: 'src/',
-		port: '3000'
+		port: '3000',
+		stats: {
+			cache: false,
+			//exclude: excludeFromStats,
+			colors: true
+		}
 	},
 	resolve: {
 		extensions: ['', '.coffee', '.js', '.jsx', '.png', '.jpg', '.gif', '.css', '.scss', 'tpl'],
 		alias: {
 			base: __dirname + '/src/base',
 			component: __dirname + '/src/component',
-			lib: __dirname + '/src/lib'
+			lib: __dirname + '/src/lib',
+			page: __dirname + '/src/page',
 		}
 	},
 	module: {
