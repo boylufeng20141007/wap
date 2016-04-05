@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "icomoon";
+	src: url('./font/icomoon.eot?#iefix');
+	src: url('./font/icomoon.svg#icomoon') format('svg'),
+		url('./font/icomoon.eot?#iefix') format('eot'),
+		url('./font/icomoon.ttf') format('truetype'),
+		url('./font/icomoon.woff') format('woff');
+}
+[class*=" icon-"], [class^=icon-] {
+	font-family: "icomoon";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.icon-menu:before {
+	content: "\E001";
+}
